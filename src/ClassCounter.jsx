@@ -18,7 +18,7 @@ export default class ClassCounter extends Component {
     return (
       <>
         <h1>Counter App</h1>
-        <p>Count : {this.state.count}</p>
+        <p>Count: {this.state.count}</p>
         <button type='button' onClick={e => this.handleCount(1)}>Increment</button>
         <button type='button' onClick={e => this.handleCount(-1)}>Decrement</button>
       </>
